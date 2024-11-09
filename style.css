@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #fad5d4;
+}
+h1{
+    text-align: center;
+    color: #131c25;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #eea7a4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #3a1c1c;
+    border-radius: 8px ;
+    padding: 20px;
+    margin-bottom:20px ;
+    background-color: #ffc5c3;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(5, 4, 4);
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ee5050;
+    color: rgb(255, 242, 242);
+    border: rgb(14, 12, 12);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button:hover{
+    background-color: rgb(175, 31, 31);
+
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #c90000;
+    border-radius: 8px;
+    background-color: #ffc5c3;
+    box-shadow: 0 4px 8px rgb(0 0, 0, 0.5);
+
+}
+#resumeOutput{
+    color: #131c25;
+    
+}
+
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border:2px solid #c90000;
+    box-shadow: 0 4px 8px rgb(0 0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+/* *****************************Complete Dynamic Resume ****************************************/
+
+
+
+
+
+
